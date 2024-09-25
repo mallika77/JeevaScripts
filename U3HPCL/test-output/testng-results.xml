@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-24T16:17:02 IST" name="Suite" finished-at="2024-09-24T16:17:34 IST" duration-ms="31939">
+    <groups>
+    </groups>
+    <test started-at="2024-09-24T16:17:02 IST" name="Test" finished-at="2024-09-24T16:17:34 IST" duration-ms="31939">
+      <class name="Testcases.terminal_testcase">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Testcases.terminal_testcase@942a29c]" started-at="2024-09-24T16:17:11 IST" name="beforetest" finished-at="2024-09-24T16:17:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="verify_the_user_able_to_navigate_to_terminalmenu()[pri:1, instance:Testcases.terminal_testcase@942a29c]" started-at="2024-09-24T16:17:33 IST" name="verify_the_user_able_to_navigate_to_terminalmenu" finished-at="2024-09-24T16:17:34 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_user_able_to_navigate_to_terminalmenu -->
+      </class> <!-- Testcases.terminal_testcase -->
+      <class name="Testcases.Login_Testcases">
+        <test-method is-config="true" signature="Starting_Setup()[pri:0, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:16:52 IST" name="Starting_Setup" finished-at="2024-09-24T16:17:02 IST" duration-ms="9711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Starting_Setup -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:02 IST" name="BeforeTest" finished-at="2024-09-24T16:17:11 IST" duration-ms="9086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="test1()[pri:1, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:11 IST" name="test1" finished-at="2024-09-24T16:17:11 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="verify_the_search_field()[pri:2, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:11 IST" name="verify_the_search_field" finished-at="2024-09-24T16:17:14 IST" duration-ms="2594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_search_field -->
+        <test-method signature="verify_the_scroll_bar_is_working()[pri:3, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:14 IST" name="verify_the_scroll_bar_is_working" finished-at="2024-09-24T16:17:16 IST" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_scroll_bar_is_working -->
+        <test-method signature="verify_the_pagination_and_showing_from_is_working_correctly()[pri:4, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:16 IST" name="verify_the_pagination_and_showing_from_is_working_correctly" finished-at="2024-09-24T16:17:20 IST" duration-ms="4197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_pagination_and_showing_from_is_working_correctly -->
+        <test-method signature="verify_action_buton_is_working_correctly()[pri:5, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:20 IST" name="verify_action_buton_is_working_correctly" finished-at="2024-09-24T16:17:21 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_action_buton_is_working_correctly -->
+        <test-method signature="select_the_zone()[pri:6, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:21 IST" name="select_the_zone" finished-at="2024-09-24T16:17:22 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_the_zone -->
+        <test-method signature="select_the_terminal()[pri:7, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:22 IST" name="select_the_terminal" finished-at="2024-09-24T16:17:23 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_the_terminal -->
+        <test-method signature="verify_the_filtered_value_matched_the_gridValue()[pri:8, instance:Testcases.Login_Testcases@273e7444]" started-at="2024-09-24T16:17:23 IST" name="verify_the_filtered_value_matched_the_gridValue" finished-at="2024-09-24T16:17:27 IST" duration-ms="3830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_filtered_value_matched_the_gridValue -->
+      </class> <!-- Testcases.Login_Testcases -->
+      <class name="Testcases.livetrips_testcase">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Testcases.livetrips_testcase@3527942a]" started-at="2024-09-24T16:17:11 IST" name="beforetest" finished-at="2024-09-24T16:17:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="verify_user_able_to_navigate_to_livetrips()[pri:1, instance:Testcases.livetrips_testcase@3527942a]" started-at="2024-09-24T16:17:27 IST" name="verify_user_able_to_navigate_to_livetrips" finished-at="2024-09-24T16:17:27 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_navigate_to_livetrips -->
+        <test-method signature="Verify_that_the_searched_value_matches_the_values_shown_in_the_grid()[pri:2, instance:Testcases.livetrips_testcase@3527942a]" started-at="2024-09-24T16:17:27 IST" name="Verify_that_the_searched_value_matches_the_values_shown_in_the_grid" finished-at="2024-09-24T16:17:29 IST" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_searched_value_matches_the_values_shown_in_the_grid -->
+        <test-method signature="Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option()[pri:3, instance:Testcases.livetrips_testcase@3527942a]" started-at="2024-09-24T16:17:29 IST" name="Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option" finished-at="2024-09-24T16:17:33 IST" duration-ms="3873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option -->
+      </class> <!-- Testcases.livetrips_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

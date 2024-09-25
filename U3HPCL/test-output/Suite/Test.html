@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 24 16:17:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>31 seconds (31939 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testcases.Login_Testcases.select_the_terminal()'><b>select_the_terminal</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>0</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.Login_Testcases.verify_the_search_field()'><b>verify_the_search_field</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.Login_Testcases.verify_the_scroll_bar_is_working()'><b>verify_the_scroll_bar_is_working</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.Login_Testcases.select_the_zone()'><b>select_the_zone</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>1</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.livetrips_testcase.Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option()'><b>Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option</b><br>Test class: Testcases.livetrips_testcase</td>
+<td></td>
+<td>3</td>
+<td>Testcases.livetrips_testcase@3527942a</td></tr>
+<tr>
+<td title='Testcases.terminal_testcase.verify_the_user_able_to_navigate_to_terminalmenu()'><b>verify_the_user_able_to_navigate_to_terminalmenu</b><br>Test class: Testcases.terminal_testcase</td>
+<td></td>
+<td>0</td>
+<td>Testcases.terminal_testcase@942a29c</td></tr>
+<tr>
+<td title='Testcases.Login_Testcases.verify_action_buton_is_working_correctly()'><b>verify_action_buton_is_working_correctly</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>1</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.Login_Testcases.verify_the_pagination_and_showing_from_is_working_correctly()'><b>verify_the_pagination_and_showing_from_is_working_correctly</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>4</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.livetrips_testcase.Verify_that_the_searched_value_matches_the_values_shown_in_the_grid()'><b>Verify_that_the_searched_value_matches_the_values_shown_in_the_grid</b><br>Test class: Testcases.livetrips_testcase</td>
+<td></td>
+<td>2</td>
+<td>Testcases.livetrips_testcase@3527942a</td></tr>
+<tr>
+<td title='Testcases.Login_Testcases.verify_the_filtered_value_matched_the_gridValue()'><b>verify_the_filtered_value_matched_the_gridValue</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>3</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.Login_Testcases.test1()'><b>test1</b><br>Test class: Testcases.Login_Testcases</td>
+<td></td>
+<td>0</td>
+<td>Testcases.Login_Testcases@273e7444</td></tr>
+<tr>
+<td title='Testcases.livetrips_testcase.verify_user_able_to_navigate_to_livetrips()'><b>verify_user_able_to_navigate_to_livetrips</b><br>Test class: Testcases.livetrips_testcase</td>
+<td></td>
+<td>0</td>
+<td>Testcases.livetrips_testcase@3527942a</td></tr>
+</table><p>
+</body>
+</html>
