@@ -3,22 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testcases.livetrips_testcase">
+      <class name="Testcases.terminal_testcase">
         <methods>
-          <include name="Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option"/>
-          <include name="verify_user_able_to_navigate_to_livetrips"/>
           <include name="Starting_Setup"/>
+          <include name="verify_keyboxdetails_menu_is_working_correctly"/>
           <include name="beforetest"/>
-          <include name="Verify_that_the_searched_value_matches_the_values_shown_in_the_grid"/>
         </methods>
-      </class> <!-- Testcases.livetrips_testcase -->
-      <class name="Testcases.Login_Testcases">
-        <methods>
-          <include name="Starting_Setup"/>
-          <include name="BeforeTest"/>
-          <include name="verify_the_filtered_value_matched_the_gridValue"/>
-        </methods>
-      </class> <!-- Testcases.Login_Testcases -->
+      </class> <!-- Testcases.terminal_testcase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

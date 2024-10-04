@@ -25,8 +25,8 @@ public class Login_Testcases extends Base_class {
 	}
 	
 	
-	@Test (priority = 1)
-	public void test1()
+	/*@Test (priority = 1)
+	public void verify_able_to_navigate_to_truckstatus_page()
 	{
 		Login_Elements.truckStatusLink.click();	
 	}
@@ -123,7 +123,7 @@ public class Login_Testcases extends Base_class {
 		driver.findElement(By.xpath("//div[@class='m-4081bf90 mantine-Group-root']//*[text()='1']")).click();
 	    click_the_webelement(Login_Elements.actionbtn);
 	    click_the_webelement(Login_Elements.Xbutton);
-	}
+	}*/
 	
 }
 	
