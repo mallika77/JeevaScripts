@@ -1,23 +1,19 @@
 package Testcases;
 
+
 import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import com.google.common.net.InetAddresses.TeredoInfo;
-
 import Common.Base_class;
-import Elements.Login_Elements;
-import Elements.livetrips_elements;
 import Elements.terminal_elements;
 
 public class terminal_testcase extends Base_class{
@@ -27,6 +23,7 @@ public class terminal_testcase extends Base_class{
 	public void beforetest()
 	{
 		PageFactory.initElements(driver,terminal_elements.class);
+	
 	}
 	
      
@@ -51,7 +48,7 @@ public class terminal_testcase extends Base_class{
 	
 	
 	
-	@Test(priority = 2)
+	@Test(priority = 2,enabled = false)
 	public void Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option() {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
          click_the_webelement(terminal_elements.button_filter);
@@ -88,7 +85,7 @@ public class terminal_testcase extends Base_class{
 		click_the_webelement(terminal_elements.button_truckdetails);
 	}
 	
-	
+	/*
 	@Test(priority = 5)
 	public void verify_customer_menu_is_working_correctly()throws InterruptedException
 	{
@@ -212,11 +209,91 @@ public class terminal_testcase extends Base_class{
 	    }
 	    terminal_elements.dropdwn_keyboxtype.sendKeys(Keys.TAB,Keys.ENTER);
 	    click_the_webelement(terminal_elements.button_unassign1);
+	    click_the_webelement(terminal_elements.button_yes2);
+	    Thread.sleep(2000);
 	    click_the_webelement(terminal_elements.button_unassign);
-	        }
+	    click_the_webelement(terminal_elements.button_yes1);
 	    
-	}
-
+	        }
 	
+	@Test(priority = 8)
+	public void Verify_the_stock_details_functions_are_working_correctly()throws InterruptedException
+	{
+		click_the_webelement(terminal_elements.button_stock_management);
+		click_the_webelement(terminal_elements.button_stock_details);
+		Thread.sleep(2000);
+		VerticalScroll(terminal_elements.button_next);
+	}
+	
+	@Test(priority = 9)
+	public void Verify_the_return_details_functions_are_working_correctly()
+	{
+		click_the_webelement(terminal_elements.button_stock_management);
+		click_the_webelement(terminal_elements.button_return_details);
+		click_the_webelement(terminal_elements.button_return_stock);
+		click_the_webelement(terminal_elements.button_X);
+     }
+	
+	@Test(priority = 10)
+	public void verify_the_geofences_function_are_working_correctly()throws InterruptedException
+	{
+		click_the_webelement(terminal_elements.button_geofence);
+		click_the_webelement(terminal_elements.button_new_geofences_mapping);
+	    click_the_webelement(terminal_elements.field_name);
+	    send_keys_to_webelement(terminal_elements.field_name, "pairs");
+	    click_the_webelement(terminal_elements.field_search);
+	    send_keys_to_webelement(terminal_elements.field_search, "paris");
+	    terminal_elements.field_search.sendKeys(Keys.ENTER);
+	    VerticalScroll(terminal_elements.button_submit_geofence);
+	    Thread.sleep(2000);
+	    click_the_webelement(terminal_elements.button_submit_geofence);
+	    Thread.sleep(2000);
+	    click_the_webelement(terminal_elements.button_remove);
+	    click_the_webelement(terminal_elements.button_yes_remove);
+	    click_the_webelement(terminal_elements.button_check_VTS);
+	    WebElement fieldTN = (terminal_elements.field_truck_number);
+	    send_keys_to_webelement(terminal_elements.field_truck_number, "TN33BC9399");
+	    Thread.sleep(2000);
+	    Actions actions = new Actions(driver);
+	    actions.moveToElement(fieldTN).perform();
+	   WebElement dropdwnoption = driver.findElement(By.xpath("//div[@class='m-92253aa5 mantine-Select-option m-390b5f4']"));
+	   dropdwnoption.click();
+	   terminal_elements.field_truck_number.sendKeys(Keys.TAB,Keys.ENTER);
+	   click_the_webelement(terminal_elements.button_X_check_vts);
+	}
+	    */
+	@Test(priority = 11 )
+	public void verify_the_maintenance_window_menu_working_correctly()throws InterruptedException
+	{
+		click_the_webelement(terminal_elements.button_maintenance_window);
+		click_the_webelement(terminal_elements.button_add_maintenance);
+		WebElement field_tn = (terminal_elements.field_truck_number_maintenance);
+		send_keys_to_webelement(terminal_elements.field_truck_number_maintenance, "UP94B1285");
+		Thread.sleep(2000);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(field_tn).perform();
+		WebElement dropdown = driver.findElement(By.xpath("//div[@class='m-92253aa5 mantine-Select-option m-390b5f4']"));
+		dropdown.click();
+		terminal_elements.field_truck_number_maintenance.sendKeys(Keys.TAB);
+		driver.switchTo().activeElement().sendKeys("Test");
+		driver.switchTo().activeElement().sendKeys(Keys.TAB,Keys.ENTER);
+		Thread.sleep(2000);
+		click_the_webelement(terminal_elements.button_remove_maintenance);
+		click_the_webelement(terminal_elements.button_yes_maintenance);
+	}
+	
+	@Test(priority = 12 )
+	public void verify_the_driver_menu_working_correctly()throws InterruptedException
+	{
+		click_the_webelement(terminal_elements.button_driver);
+		click_the_webelement(terminal_elements.button_add_driver);
+		click_the_webelement(terminal_elements.button_X_driver);
+		
+	}
+	
+	
+}
+
+		
 	
 

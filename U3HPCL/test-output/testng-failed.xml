@@ -6,8 +6,8 @@
       <class name="Testcases.terminal_testcase">
         <methods>
           <include name="Starting_Setup"/>
-          <include name="verify_keyboxdetails_menu_is_working_correctly"/>
           <include name="beforetest"/>
+          <include name="verify_the_maintenance_window_menu_working_correctly"/>
         </methods>
       </class> <!-- Testcases.terminal_testcase -->
     </classes>

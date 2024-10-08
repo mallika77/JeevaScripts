@@ -1,6 +1,7 @@
 package Elements;
 
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.FindBy;
 
 public class terminal_elements {
@@ -109,5 +110,83 @@ public class terminal_elements {
     
     @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[5]")
     public static WebElement button_unassign1;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[8]")
+    public static WebElement button_yes2;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[6]")
+    public static WebElement button_yes1;
+    
+    @FindBy (xpath = "(//div[@class='text-sm'])[2]")
+    public static WebElement button_stock_management;
+    
+    @FindBy (xpath = "(//span[@class='font-normal '])[1]")
+    public static WebElement button_stock_details;
+    
+    @FindBy (xpath = "(//span[@class='font-normal '])[2]")
+    public static WebElement button_return_details;
+    
+    @FindBy (xpath = "(//button[@class='mantine-focus-auto mantine-active m-326d024a mantine-Pagination-control m-87cf2631 mantine-UnstyledButton-root'])[5]")
+    public static WebElement button_next;
+		
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[1]")
+    public static WebElement button_return_stock;
+    
+    @FindBy (xpath = "//button[@class='mantine-focus-auto mantine-active m-220c80f2 m-606cb269 mantine-Drawer-close m-86a44da5 mantine-CloseButton-root m-87cf2631 mantine-UnstyledButton-root']")
+    public static WebElement button_X;
+    
+    @FindBy (xpath = "(//a[@class='text-sm font-medium underline-offset-[10px] py-1.5 border-b-[2.5px] border-white no-underline'])[2]")
+    public static WebElement button_geofence;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[1]")
+    public static WebElement button_new_geofences_mapping;
+	
+    @FindBy (xpath = "//input[@class='m-8fb7ebe7 mantine-Input-input mantine-TextInput-input']")
+    public static WebElement field_name;
+    
+    @FindBy (xpath = "//input[@class='pac-target-input']")
+    public static WebElement field_search;
+    
+    @FindBy (xpath = "(//span[@class='m-80f1301b mantine-Button-inner'])[5]")
+    public static WebElement button_submit_geofence;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[5]")
+    public static WebElement button_remove;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[8]")
+    public static WebElement button_yes_remove;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[2]")
+    public static WebElement button_check_VTS;
+    
+    @FindBy (xpath = "//input[@class='m-8fb7ebe7 mantine-Input-input mantine-Select-input']")
+    public static WebElement field_truck_number;
+    
+    @FindBy (xpath = "//button[@class='mantine-focus-auto mantine-active m-220c80f2 m-606cb269 mantine-Drawer-close m-86a44da5 mantine-CloseButton-root m-87cf2631 mantine-UnstyledButton-root']")
+    public static WebElement button_X_check_vts;
+    
+    @FindBy (xpath = "(//a[@class='text-sm font-medium underline-offset-[10px] py-1.5 border-b-[2.5px] border-white no-underline'])[3]")
+    public static WebElement button_maintenance_window;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[1]")
+    public static WebElement button_add_maintenance;
+    
+    @FindBy (xpath = "//input[@class='m-8fb7ebe7 mantine-Input-input mantine-Select-input']")
+    public static WebElement field_truck_number_maintenance;
+    
+    @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[3]")
+    public static WebElement button_remove_maintenance;
+    
+    @FindBy (xpath = "//span[@class='m-811560b9 mantine-Button-label' and text()='Yes']")
+    public static WebElement button_yes_maintenance;		
+    
+    @FindBy (xpath = "(//a[@class='text-sm font-medium underline-offset-[10px] py-1.5 border-b-[2.5px] border-white no-underline'])[4]")
+    public static WebElement button_driver;
+    
+    @FindBy (xpath = "//span[@class='m-811560b9 mantine-Button-label' and text() = 'Add Driver']")
+    public static WebElement button_add_driver;
+    
+    @FindBy (xpath = "//button[@class='mantine-focus-auto mantine-active m-220c80f2 m-606cb269 mantine-Drawer-close m-86a44da5 mantine-CloseButton-root m-87cf2631 mantine-UnstyledButton-root']")
+    public static WebElement button_X_driver;
     
 }
