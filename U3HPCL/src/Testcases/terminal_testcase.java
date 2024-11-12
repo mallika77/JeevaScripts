@@ -48,7 +48,7 @@ public class terminal_testcase extends Base_class{
 	
 	
 	
-	@Test(priority = 2,enabled = false)
+	@Test(priority = 2,enabled = true)
 	public void Verify_that_the_user_is_able_to_select_a_value_from_the_filter_option() {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
          click_the_webelement(terminal_elements.button_filter);
@@ -85,7 +85,6 @@ public class terminal_testcase extends Base_class{
 		click_the_webelement(terminal_elements.button_truckdetails);
 	}
 	
-	/*
 	@Test(priority = 5)
 	public void verify_customer_menu_is_working_correctly()throws InterruptedException
 	{
@@ -213,7 +212,6 @@ public class terminal_testcase extends Base_class{
 	    Thread.sleep(2000);
 	    click_the_webelement(terminal_elements.button_unassign);
 	    click_the_webelement(terminal_elements.button_yes1);
-	    
 	        }
 	
 	@Test(priority = 8)
@@ -261,10 +259,11 @@ public class terminal_testcase extends Base_class{
 	   terminal_elements.field_truck_number.sendKeys(Keys.TAB,Keys.ENTER);
 	   click_the_webelement(terminal_elements.button_X_check_vts);
 	}
-	    */
+	    
 	@Test(priority = 11 )
 	public void verify_the_maintenance_window_menu_working_correctly()throws InterruptedException
 	{
+		Thread.sleep(2000);
 		click_the_webelement(terminal_elements.button_maintenance_window);
 		click_the_webelement(terminal_elements.button_add_maintenance);
 		WebElement field_tn = (terminal_elements.field_truck_number_maintenance);
@@ -288,9 +287,8 @@ public class terminal_testcase extends Base_class{
 		click_the_webelement(terminal_elements.button_driver);
 		click_the_webelement(terminal_elements.button_add_driver);
 		click_the_webelement(terminal_elements.button_X_driver);
-		
 	}
-	
+    
 	
 }
 

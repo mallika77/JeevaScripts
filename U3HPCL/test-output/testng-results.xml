@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-08T11:55:18 IST" name="Suite" finished-at="2024-10-08T11:55:40 IST" duration-ms="21247">
+  <suite started-at="2024-10-09T15:35:42 IST" name="Suite" finished-at="2024-10-09T15:35:55 IST" duration-ms="12453">
     <groups>
     </groups>
-    <test started-at="2024-10-08T11:55:18 IST" name="Test" finished-at="2024-10-08T11:55:40 IST" duration-ms="21247">
+    <test started-at="2024-10-09T15:35:42 IST" name="Test" finished-at="2024-10-09T15:35:55 IST" duration-ms="12453">
       <class name="Testcases.Login_Testcases">
-        <test-method is-config="true" signature="Starting_Setup()[pri:0, instance:Testcases.Login_Testcases@4659191b]" started-at="2024-10-08T11:55:14 IST" name="Starting_Setup" finished-at="2024-10-08T11:55:18 IST" duration-ms="3881" status="PASS">
+        <test-method is-config="true" signature="Starting_Setup()[pri:0, instance:Testcases.Login_Testcases@27f981c6]" started-at="2024-10-09T15:35:39 IST" name="Starting_Setup" finished-at="2024-10-09T15:35:42 IST" duration-ms="3371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Starting_Setup -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Testcases.Login_Testcases@4659191b]" started-at="2024-10-08T11:55:18 IST" name="BeforeTest" finished-at="2024-10-08T11:55:29 IST" duration-ms="10401" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Testcases.Login_Testcases@27f981c6]" started-at="2024-10-09T15:35:42 IST" name="BeforeTest" finished-at="2024-10-09T15:35:54 IST" duration-ms="11943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
       </class> <!-- Testcases.Login_Testcases -->
-      <class name="Testcases.terminal_testcase">
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:Testcases.terminal_testcase@7db12bb6]" started-at="2024-10-08T11:55:29 IST" name="beforetest" finished-at="2024-10-08T11:55:29 IST" duration-ms="6" status="PASS">
+      <class name="Testcases.key_activity_report_testcase">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Testcases.key_activity_report_testcase@54e1c68b]" started-at="2024-10-09T15:35:54 IST" name="before_test" finished-at="2024-10-09T15:35:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method signature="verify_the_user_able_to_navigate_to_terminalmenu()[pri:1, instance:Testcases.terminal_testcase@7db12bb6]" started-at="2024-10-08T11:55:29 IST" name="verify_the_user_able_to_navigate_to_terminalmenu" finished-at="2024-10-08T11:55:29 IST" duration-ms="104" status="PASS">
+        </test-method> <!-- before_test -->
+        <test-method signature="verify_the_key_activity_report_is_clickable_and_able_to_click()[pri:1, instance:Testcases.key_activity_report_testcase@54e1c68b]" started-at="2024-10-09T15:35:54 IST" name="verify_the_key_activity_report_is_clickable_and_able_to_click" finished-at="2024-10-09T15:35:55 IST" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_the_user_able_to_navigate_to_terminalmenu -->
-        <test-method signature="verify_the_search_field_is_working_correctly()[pri:3, instance:Testcases.terminal_testcase@7db12bb6]" started-at="2024-10-08T11:55:29 IST" name="verify_the_search_field_is_working_correctly" finished-at="2024-10-08T11:55:31 IST" duration-ms="2404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_the_search_field_is_working_correctly -->
-        <test-method signature="verify_able_to_view_the_dasboard_widgetsand_truckdeatils()[pri:4, instance:Testcases.terminal_testcase@7db12bb6]" started-at="2024-10-08T11:55:31 IST" name="verify_able_to_view_the_dasboard_widgetsand_truckdeatils" finished-at="2024-10-08T11:55:34 IST" duration-ms="2917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_able_to_view_the_dasboard_widgetsand_truckdeatils -->
-        <test-method signature="verify_the_maintenance_window_menu_working_correctly()[pri:11, instance:Testcases.terminal_testcase@7db12bb6]" started-at="2024-10-08T11:55:34 IST" name="verify_the_maintenance_window_menu_working_correctly" finished-at="2024-10-08T11:55:40 IST" duration-ms="5393" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_the_maintenance_window_menu_working_correctly -->
-      </class> <!-- Testcases.terminal_testcase -->
+        </test-method> <!-- verify_the_key_activity_report_is_clickable_and_able_to_click -->
+      </class> <!-- Testcases.key_activity_report_testcase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

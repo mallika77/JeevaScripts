@@ -1,9 +1,8 @@
 package Elements;
 
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.support.FindBy;
-
+ 
 public class Login_Elements {
 
 	@FindBy(xpath  ="//div[@class='grow w-full flex flex-col items-center space-y-2 py-2']/a[@href='/truck-status']" )
@@ -38,7 +37,6 @@ public class Login_Elements {
 	
 	@FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[1]")
 	public static WebElement clrbutton;
-	
 	
 	@FindBy (xpath = "//button[@class='mantine-focus-auto mantine-active w-1/2 text-gray-500 font-medium m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root']")
 	public static WebElement clearfilter;

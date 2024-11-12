@@ -165,7 +165,7 @@ public class terminal_elements {
     @FindBy (xpath = "//button[@class='mantine-focus-auto mantine-active m-220c80f2 m-606cb269 mantine-Drawer-close m-86a44da5 mantine-CloseButton-root m-87cf2631 mantine-UnstyledButton-root']")
     public static WebElement button_X_check_vts;
     
-    @FindBy (xpath = "(//a[@class='text-sm font-medium underline-offset-[10px] py-1.5 border-b-[2.5px] border-white no-underline'])[3]")
+    @FindBy (xpath = "//a[@class='text-sm font-medium underline-offset-[10px] py-1.5 border-b-[2.5px] border-white no-underline' and @href='/terminals/354/maintenance-window']//div[text()='Maintenance Window']")
     public static WebElement button_maintenance_window;
     
     @FindBy (xpath = "(//span[@class='m-811560b9 mantine-Button-label'])[1]")
@@ -180,7 +180,7 @@ public class terminal_elements {
     @FindBy (xpath = "//span[@class='m-811560b9 mantine-Button-label' and text()='Yes']")
     public static WebElement button_yes_maintenance;		
     
-    @FindBy (xpath = "(//a[@class='text-sm font-medium underline-offset-[10px] py-1.5 border-b-[2.5px] border-white no-underline'])[4]")
+    @FindBy (xpath = "//a[@class='text-sm font-medium underline-offset-[10px] py-1.5 border-b-[2.5px] border-white no-underline' and @href='/terminals/354/drivers']//div[text()='Drivers']")
     public static WebElement button_driver;
     
     @FindBy (xpath = "//span[@class='m-811560b9 mantine-Button-label' and text() = 'Add Driver']")
